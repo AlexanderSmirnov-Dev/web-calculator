@@ -1,0 +1,13 @@
+.background {
+    background-color: dimgray;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.btnClass {
+    height: 50px;
+    width: 50px;
+}

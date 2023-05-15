@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <h1 class="box">Calculator</h1>
+    <link rel="stylesheet" href="css.css">
+    <body class="background">
+        <div class="box">
+            <button class="btnClass" onclick="addValue(1)">1</button>
+            <button class="btnClass" onclick="addValue(2)">2</button>
+            <button class="btnClass" onclick="addValue(3)">3</button>
+            <button class="btnClass" onclick="changeOperand('+')">+</button>
+        </div>
+        <div class="box">
+            <button class="btnClass" onclick="addValue(4)">4</button>
+            <button class="btnClass" onclick="addValue(5)">5</button>
+            <button class="btnClass" onclick="addValue(6)">6</button>
+            <button class="btnClass" onclick="changeOperand('-')">-</button>
+        </div>
+        <div class="box">
+            <button class="btnClass" onclick="addValue(7)">7</button>
+            <button class="btnClass" onclick="addValue(8)">8</button>
+            <button class="btnClass" onclick="addValue(9)">9</button>
+            <button class="btnClass" onclick="changeOperand('*')">*</button>
+        </div>
+        <div class="box">
+            <button class="btnClass" onclick="calculate()">=</button>
+            <button class="btnClass" onclick="changeOperand('/')">/</button>
+            <button class="btnClass" onclick="ce()">CE</button>
+            <button class="btnClass" onclick="del()">DEL</button>
+        </div>
+        <div class="box">
+            <p id="total">Total = 0</p>
+        </div>
+        <div class="box">
+            <p id="operand">Operand = 0</p>
+        </div>
+    </body>
+</html>
+
+<script defer src="script.js"></script>
