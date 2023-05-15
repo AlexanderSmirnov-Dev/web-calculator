@@ -1,3 +1,3 @@
 # web-calculator
-Simple website for a calculator
-Made to learn the web basics
+<p>Simple website for a calculator</p>
+<p>Made to learn the web basics</p>
